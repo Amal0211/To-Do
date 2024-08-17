@@ -1,0 +1,71 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.papacontain{
+    height:100vh;
+    width: 100vw;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    position: relative;
+}
+
+.container{
+    border-radius: 5%;
+    background-color: whitesmoke;
+    width: 100%;
+    min-height: 400px;
+    max-width: 700px;
+    position: absolute;
+    top: 50%;  /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for the element's size */
+    padding: 20px;
+    
+}
+.nocurrenttask{
+text-align: center;
+position: absolute;
+top:50%;
+left: 50%;
+font-weight: 700;
+font-size: x-large;
+
+transform: translate(-50%,-50%);
+}
+.addtask{
+    position: relative;
+    left: 80%;
+    
+}
+.tasklist{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    position: absolute;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+    margin: 10px;
+}
+.taskBox{
+    margin: 10px;
+    border-color: blue;
+}
+.taskNbutton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.listnameNbutton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    font-size: larger;
+}
